@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10140f">
+  <meta name="description" content="Download PM-2, a desktop edition of Paper Minecraft for Windows.">
+  <title>PM-2 — Your world. Your adventure.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="PM-2 home"><span class="brand-mark">P<span>M</span></span><span class="brand-name">PM-2</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#requirements">Requirements</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="nav-download" href="#download">Get PM-2 <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> DESKTOP EDITION <span class="eyebrow-divider">/</span> WINDOWS</div>
+        <h1>Your world.<br><span>Your adventure.</span></h1>
+        <p class="hero-description">Meet PM-2 — Paper Minecraft in a dedicated desktop app. Install it once, launch it from your desktop, and jump straight into your next adventure.</p>
+        <div class="hero-actions" id="download">
+          <a class="button button-primary" href="https://github.com/zionsongs40-ship-it/PM-2-Website/releases/latest/download/PM-2-Setup-1.0.1.exe">
+            <span class="download-icon" aria-hidden="true">↓</span> Download for Windows
+          </a>
+          <span class="version-note">Version 1.0.1 <span>•</span> 64-bit installer</span>
+        </div>
+        <div class="trust-line"><span class="check">✓</span> Windows installer <span class="trust-separator">·</span> Desktop & Start Menu shortcuts</div>
+      </div>
+      <div class="hero-art" aria-label="Decorative pixel landscape">
+        <div class="art-sun"></div>
+        <div class="art-cloud cloud-one"></div><div class="art-cloud cloud-two"></div>
+        <div class="mountain mountain-back"></div><div class="mountain mountain-front"></div>
+        <div class="ground"></div>
+        <div class="pixel-tree tree-one"><i></i><b></b></div>
+        <div class="pixel-tree tree-two"><i></i><b></b></div>
+        <div class="pixel-block block-one"></div><div class="pixel-block block-two"></div>
+        <div class="art-caption"><span>01 / EXPLORE</span><span>THE ADVENTURE STARTS HERE</span></div>
+      </div>
+      <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="feature-section section-wrap" id="features">
+      <div class="section-heading">
+        <div class="eyebrow">MADE FOR YOUR DESKTOP</div>
+        <h2>Less setup.<br><span>More playing.</span></h2>
+        <p>Everything you need to get into the game, in one simple Windows application.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-symbol">▣</div><div class="feature-number">01</div>
+          <h3>One simple installer</h3><p>Install PM-2 with a guided setup. No need to manage a browser tab every time you want to play.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-symbol">⌘</div><div class="feature-number">02</div>
+          <h3>Ready from your desktop</h3><p>Launch PM-2 from your desktop shortcut or find it in the Start Menu.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-symbol">↗</div><div class="feature-number">03</div>
+          <h3>Updates made simple</h3><p>Check this page for the latest PM-2 release and installer whenever a new version is available.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="download-section" id="requirements">
+      <div class="download-inner">
+        <div>
+          <div class="eyebrow">READY WHEN YOU ARE</div>
+          <h2>Start your<br><span>next adventure.</span></h2>
+          <p class="download-copy">Get the PM-2 Windows installer and follow the setup instructions.</p>
+          <a class="button button-primary" href="https://github.com/zionsongs40-ship-it/PM-2-Website/releases/latest/download/PM-2-Setup-1.0.1.exe"><span class="download-icon">↓</span> Download PM-2 <span class="button-arrow">↗</span></a>
+          <div class="version-note below-button">Version 1.0.1 <span>•</span> Windows x64</div>
+        </div>
+        <div class="requirements-card">
+          <div class="requirements-title">INSTALLER DETAILS <span>01.0.1</span></div>
+          <div class="detail-row"><span>Application</span><strong>PM-2</strong></div>
+          <div class="detail-row"><span>Version</span><strong>1.0.1</strong></div>
+          <div class="detail-row"><span>Platform</span><strong>Windows 64-bit</strong></div>
+          <div class="detail-row"><span>File type</span><strong>.exe installer</strong></div>
+          <div class="detail-row"><span>WebView2</span><strong>Runtime required</strong></div>
+          <p class="runtime-note">The setup program can install the Microsoft Edge WebView2 Runtime if it is not already present. An internet connection may be needed for that step.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section section-wrap" id="faq">
+      <div class="eyebrow">NEED TO KNOW?</div><h2>Quick answers.</h2>
+      <div class="faq-list">
+        <details><summary>Which Windows version do I need?<span>＋</span></summary><p>PM-2 is provided as a 64-bit Windows installer. A compatible Windows 10 or Windows 11 PC is recommended.</p></details>
+        <details><summary>Why does setup need WebView2?<span>＋</span></summary><p>PM-2 uses Microsoft Edge WebView2 to display the game inside its desktop window. The setup bundle checks for the runtime and can install it if needed.</p></details>
+        <details><summary>Where can I find newer versions?<span>＋</span></summary><p>Come back to this official PM-2 download page. The download button points to the latest published installer release.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#"><span class="brand-mark">P<span>M</span></span><span class="brand-name">PM-2</span></a>
+    <p>Made for the next adventure.</p>
+    <span class="footer-copy">© <span id="year"></span> PM-2</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
